@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Adhan",
+        "repositoryURL": "https://github.com/batoulapps/adhan-swift",
+        "state": {
+          "branch": null,
+          "revision": "3723ee71c900ad3bc93868c32ff039c1322a1fb4",
+          "version": "1.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

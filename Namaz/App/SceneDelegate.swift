@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftUI
+import Adhan
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -28,6 +29,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window.rootViewController = UIHostingController(rootView: contentView)
             self.window = window
             window.makeKeyAndVisible()
+        }
+        
+        if let prayerTimes = PrayerTimes(coordinates: .init(latitude: 35.78056, longitude: -78.6389)) {
+            
+            let prayers = Prayer.make(players: prayerTimes)
+            
+            PrayerManager.shared.configure(prayers: prayers, timeInterval: 1)
         }
     }
 

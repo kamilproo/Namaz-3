@@ -3,52 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B08002424764F23007F6AB7 /* DuaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B08002324764F23007F6AB7 /* DuaView.swift */; };
+		5B08002624764F39007F6AB7 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B08002524764F39007F6AB7 /* SettingView.swift */; };
+		5B080028247657D9007F6AB7 /* ModalSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B080027247657D9007F6AB7 /* ModalSetting.swift */; };
 		5B0B9B3B246D101C00D9BA7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B9B3A246D101C00D9BA7F /* AppDelegate.swift */; };
 		5B0B9B3D246D101C00D9BA7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B9B3C246D101C00D9BA7F /* SceneDelegate.swift */; };
 		5B0B9B3F246D101C00D9BA7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B9B3E246D101C00D9BA7F /* ContentView.swift */; };
-		5B0B9B41246D102300D9BA7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0B9B40246D102300D9BA7F /* Assets.xcassets */; };
 		5B0B9B44246D102300D9BA7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0B9B43246D102300D9BA7F /* Preview Assets.xcassets */; };
 		5B0B9B47246D102300D9BA7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0B9B45246D102300D9BA7F /* LaunchScreen.storyboard */; };
-		5B0B9B52246D102300D9BA7F /* NamazTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B9B51246D102300D9BA7F /* NamazTests.swift */; };
-		5B0B9B5D246D102300D9BA7F /* NamazUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B9B5C246D102300D9BA7F /* NamazUITests.swift */; };
+		5B0B9B6C246D4C7000D9BA7F /* Adhan in Frameworks */ = {isa = PBXBuildFile; productRef = 5B0B9B6B246D4C7000D9BA7F /* Adhan */; };
+		5B9C83A7247512CA005A7F69 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B9C83A6247512CA005A7F69 /* Montserrat-Black.ttf */; };
+		5B9C83A924751324005A7F69 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B9C83A824751324005A7F69 /* Montserrat-Medium.ttf */; };
+		5B9C83AD24756E2B005A7F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9C83AC24756E2B005A7F69 /* Assets.xcassets */; };
+		5B9C83B12475A4B8005A7F69 /* TableVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9C83B02475A4B8005A7F69 /* TableVeiw.swift */; };
+		9CAD666E2472F2C2002F8AFF /* PrayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAD666D2472F2C2002F8AFF /* PrayerManager.swift */; };
+		9CAD66752472F7B0002F8AFF /* Prayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAD66742472F7B0002F8AFF /* Prayers.swift */; };
+		9CB54AF824741C2100DB8795 /* Adhan+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB54AF724741C2100DB8795 /* Adhan+extension.swift */; };
+		9CB54AFA2474248E00DB8795 /* StringInterpolation+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB54AF92474248E00DB8795 /* StringInterpolation+extension.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5B0B9B4E246D102300D9BA7F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5B0B9B2F246D101C00D9BA7F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5B0B9B36246D101C00D9BA7F;
-			remoteInfo = Namaz;
-		};
-		5B0B9B59246D102300D9BA7F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5B0B9B2F246D101C00D9BA7F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5B0B9B36246D101C00D9BA7F;
-			remoteInfo = Namaz;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		5B08002324764F23007F6AB7 /* DuaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaView.swift; sourceTree = "<group>"; };
+		5B08002524764F39007F6AB7 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		5B080027247657D9007F6AB7 /* ModalSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalSetting.swift; sourceTree = "<group>"; };
 		5B0B9B37246D101C00D9BA7F /* Namaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Namaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B0B9B3A246D101C00D9BA7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B0B9B3C246D101C00D9BA7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B0B9B3E246D101C00D9BA7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5B0B9B40246D102300D9BA7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B0B9B3E246D101C00D9BA7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		5B0B9B43246D102300D9BA7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B0B9B46246D102300D9BA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B0B9B48246D102300D9BA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B0B9B4D246D102300D9BA7F /* NamazTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NamazTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B0B9B51246D102300D9BA7F /* NamazTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamazTests.swift; sourceTree = "<group>"; };
-		5B0B9B53246D102300D9BA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B0B9B58246D102300D9BA7F /* NamazUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NamazUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B0B9B5C246D102300D9BA7F /* NamazUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamazUITests.swift; sourceTree = "<group>"; };
-		5B0B9B5E246D102300D9BA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B9C83A6247512CA005A7F69 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		5B9C83A824751324005A7F69 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		5B9C83AC24756E2B005A7F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B9C83B02475A4B8005A7F69 /* TableVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVeiw.swift; sourceTree = "<group>"; };
+		9CAD666D2472F2C2002F8AFF /* PrayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerManager.swift; sourceTree = "<group>"; };
+		9CAD66742472F7B0002F8AFF /* Prayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayers.swift; sourceTree = "<group>"; };
+		9CB54AF724741C2100DB8795 /* Adhan+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Adhan+extension.swift"; sourceTree = "<group>"; };
+		9CB54AF92474248E00DB8795 /* StringInterpolation+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringInterpolation+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,20 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B0B9B4A246D102300D9BA7F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B0B9B55246D102300D9BA7F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				5B0B9B6C246D4C7000D9BA7F /* Adhan in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,9 +62,9 @@
 		5B0B9B2E246D101C00D9BA7F = {
 			isa = PBXGroup;
 			children = (
+				5B9C83A824751324005A7F69 /* Montserrat-Medium.ttf */,
+				5B9C83A6247512CA005A7F69 /* Montserrat-Black.ttf */,
 				5B0B9B39246D101C00D9BA7F /* Namaz */,
-				5B0B9B50246D102300D9BA7F /* NamazTests */,
-				5B0B9B5B246D102300D9BA7F /* NamazUITests */,
 				5B0B9B38246D101C00D9BA7F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				5B0B9B37246D101C00D9BA7F /* Namaz.app */,
-				5B0B9B4D246D102300D9BA7F /* NamazTests.xctest */,
-				5B0B9B58246D102300D9BA7F /* NamazUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,12 +80,11 @@
 		5B0B9B39246D101C00D9BA7F /* Namaz */ = {
 			isa = PBXGroup;
 			children = (
-				5B0B9B3A246D101C00D9BA7F /* AppDelegate.swift */,
-				5B0B9B3C246D101C00D9BA7F /* SceneDelegate.swift */,
-				5B0B9B3E246D101C00D9BA7F /* ContentView.swift */,
-				5B0B9B40246D102300D9BA7F /* Assets.xcassets */,
-				5B0B9B45246D102300D9BA7F /* LaunchScreen.storyboard */,
-				5B0B9B48246D102300D9BA7F /* Info.plist */,
+				9CAD666B2472F29E002F8AFF /* App */,
+				9CAD66692472F277002F8AFF /* Managers */,
+				9CAD666C2472F2AC002F8AFF /* UI */,
+				9CB54AF524741BB400DB8795 /* Extension */,
+				9CB54AF624741BCB00DB8795 /* SupportedFiles */,
 				5B0B9B42246D102300D9BA7F /* Preview Content */,
 			);
 			path = Namaz;
@@ -118,22 +98,61 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5B0B9B50246D102300D9BA7F /* NamazTests */ = {
+		9CAD66692472F277002F8AFF /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				5B0B9B51246D102300D9BA7F /* NamazTests.swift */,
-				5B0B9B53246D102300D9BA7F /* Info.plist */,
+				9CAD666A2472F28A002F8AFF /* TimeManager */,
 			);
-			path = NamazTests;
+			path = Managers;
 			sourceTree = "<group>";
 		};
-		5B0B9B5B246D102300D9BA7F /* NamazUITests */ = {
+		9CAD666A2472F28A002F8AFF /* TimeManager */ = {
 			isa = PBXGroup;
 			children = (
-				5B0B9B5C246D102300D9BA7F /* NamazUITests.swift */,
-				5B0B9B5E246D102300D9BA7F /* Info.plist */,
+				9CAD66742472F7B0002F8AFF /* Prayers.swift */,
+				9CAD666D2472F2C2002F8AFF /* PrayerManager.swift */,
 			);
-			path = NamazUITests;
+			path = TimeManager;
+			sourceTree = "<group>";
+		};
+		9CAD666B2472F29E002F8AFF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5B0B9B3A246D101C00D9BA7F /* AppDelegate.swift */,
+				5B0B9B3C246D101C00D9BA7F /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9CAD666C2472F2AC002F8AFF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5B0B9B3E246D101C00D9BA7F /* ContentView.swift */,
+				5B080027247657D9007F6AB7 /* ModalSetting.swift */,
+				5B08002324764F23007F6AB7 /* DuaView.swift */,
+				5B08002524764F39007F6AB7 /* SettingView.swift */,
+				5B9C83B02475A4B8005A7F69 /* TableVeiw.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9CB54AF524741BB400DB8795 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9CB54AF724741C2100DB8795 /* Adhan+extension.swift */,
+				9CB54AF92474248E00DB8795 /* StringInterpolation+extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9CB54AF624741BCB00DB8795 /* SupportedFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5B0B9B45246D102300D9BA7F /* LaunchScreen.storyboard */,
+				5B9C83AC24756E2B005A7F69 /* Assets.xcassets */,
+				5B0B9B48246D102300D9BA7F /* Info.plist */,
+			);
+			path = SupportedFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,45 +171,12 @@
 			dependencies = (
 			);
 			name = Namaz;
+			packageProductDependencies = (
+				5B0B9B6B246D4C7000D9BA7F /* Adhan */,
+			);
 			productName = Namaz;
 			productReference = 5B0B9B37246D101C00D9BA7F /* Namaz.app */;
 			productType = "com.apple.product-type.application";
-		};
-		5B0B9B4C246D102300D9BA7F /* NamazTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5B0B9B64246D102300D9BA7F /* Build configuration list for PBXNativeTarget "NamazTests" */;
-			buildPhases = (
-				5B0B9B49246D102300D9BA7F /* Sources */,
-				5B0B9B4A246D102300D9BA7F /* Frameworks */,
-				5B0B9B4B246D102300D9BA7F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5B0B9B4F246D102300D9BA7F /* PBXTargetDependency */,
-			);
-			name = NamazTests;
-			productName = NamazTests;
-			productReference = 5B0B9B4D246D102300D9BA7F /* NamazTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5B0B9B57246D102300D9BA7F /* NamazUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5B0B9B67246D102300D9BA7F /* Build configuration list for PBXNativeTarget "NamazUITests" */;
-			buildPhases = (
-				5B0B9B54246D102300D9BA7F /* Sources */,
-				5B0B9B55246D102300D9BA7F /* Frameworks */,
-				5B0B9B56246D102300D9BA7F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5B0B9B5A246D102300D9BA7F /* PBXTargetDependency */,
-			);
-			name = NamazUITests;
-			productName = NamazUITests;
-			productReference = 5B0B9B58246D102300D9BA7F /* NamazUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -205,18 +191,10 @@
 					5B0B9B36246D101C00D9BA7F = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
-					5B0B9B4C246D102300D9BA7F = {
-						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 5B0B9B36246D101C00D9BA7F;
-					};
-					5B0B9B57246D102300D9BA7F = {
-						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 5B0B9B36246D101C00D9BA7F;
-					};
 				};
 			};
 			buildConfigurationList = 5B0B9B32246D101C00D9BA7F /* Build configuration list for PBXProject "Namaz" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -224,13 +202,14 @@
 				Base,
 			);
 			mainGroup = 5B0B9B2E246D101C00D9BA7F;
+			packageReferences = (
+				5B0B9B6A246D4C7000D9BA7F /* XCRemoteSwiftPackageReference "adhan-swift" */,
+			);
 			productRefGroup = 5B0B9B38246D101C00D9BA7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5B0B9B36246D101C00D9BA7F /* Namaz */,
-				5B0B9B4C246D102300D9BA7F /* NamazTests */,
-				5B0B9B57246D102300D9BA7F /* NamazUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,23 +219,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B9C83A924751324005A7F69 /* Montserrat-Medium.ttf in Resources */,
+				5B9C83A7247512CA005A7F69 /* Montserrat-Black.ttf in Resources */,
 				5B0B9B47246D102300D9BA7F /* LaunchScreen.storyboard in Resources */,
 				5B0B9B44246D102300D9BA7F /* Preview Assets.xcassets in Resources */,
-				5B0B9B41246D102300D9BA7F /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B0B9B4B246D102300D9BA7F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B0B9B56246D102300D9BA7F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				5B9C83AD24756E2B005A7F69 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,41 +235,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B0B9B3B246D101C00D9BA7F /* AppDelegate.swift in Sources */,
+				5B08002624764F39007F6AB7 /* SettingView.swift in Sources */,
 				5B0B9B3D246D101C00D9BA7F /* SceneDelegate.swift in Sources */,
+				9CB54AF824741C2100DB8795 /* Adhan+extension.swift in Sources */,
+				9CAD666E2472F2C2002F8AFF /* PrayerManager.swift in Sources */,
+				9CB54AFA2474248E00DB8795 /* StringInterpolation+extension.swift in Sources */,
+				5B080028247657D9007F6AB7 /* ModalSetting.swift in Sources */,
+				5B9C83B12475A4B8005A7F69 /* TableVeiw.swift in Sources */,
+				9CAD66752472F7B0002F8AFF /* Prayers.swift in Sources */,
 				5B0B9B3F246D101C00D9BA7F /* ContentView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B0B9B49246D102300D9BA7F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B0B9B52246D102300D9BA7F /* NamazTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B0B9B54246D102300D9BA7F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B0B9B5D246D102300D9BA7F /* NamazUITests.swift in Sources */,
+				5B08002424764F23007F6AB7 /* DuaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5B0B9B4F246D102300D9BA7F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5B0B9B36246D101C00D9BA7F /* Namaz */;
-			targetProxy = 5B0B9B4E246D102300D9BA7F /* PBXContainerItemProxy */;
-		};
-		5B0B9B5A246D102300D9BA7F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5B0B9B36246D101C00D9BA7F /* Namaz */;
-			targetProxy = 5B0B9B59246D102300D9BA7F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5B0B9B45246D102300D9BA7F /* LaunchScreen.storyboard */ = {
@@ -437,7 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Namaz/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Namaz/Info.plist;
+				INFOPLIST_FILE = Namaz/SupportedFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +402,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Namaz/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Namaz/Info.plist;
+				INFOPLIST_FILE = Namaz/SupportedFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,86 +411,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		5B0B9B65246D102300D9BA7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NamazTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = my.NamazTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Namaz.app/Namaz";
-			};
-			name = Debug;
-		};
-		5B0B9B66246D102300D9BA7F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NamazTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = my.NamazTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Namaz.app/Namaz";
-			};
-			name = Release;
-		};
-		5B0B9B68246D102300D9BA7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NamazUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = my.NamazUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Namaz;
-			};
-			name = Debug;
-		};
-		5B0B9B69246D102300D9BA7F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NamazUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = my.NamazUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Namaz;
 			};
 			name = Release;
 		};
@@ -569,25 +435,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B0B9B64246D102300D9BA7F /* Build configuration list for PBXNativeTarget "NamazTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5B0B9B65246D102300D9BA7F /* Debug */,
-				5B0B9B66246D102300D9BA7F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5B0B9B67246D102300D9BA7F /* Build configuration list for PBXNativeTarget "NamazUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5B0B9B68246D102300D9BA7F /* Debug */,
-				5B0B9B69246D102300D9BA7F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B0B9B6A246D4C7000D9BA7F /* XCRemoteSwiftPackageReference "adhan-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/batoulapps/adhan-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B0B9B6B246D4C7000D9BA7F /* Adhan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B0B9B6A246D4C7000D9BA7F /* XCRemoteSwiftPackageReference "adhan-swift" */;
+			productName = Adhan;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5B0B9B2F246D101C00D9BA7F /* Project object */;
 }
